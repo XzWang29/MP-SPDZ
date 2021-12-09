@@ -127,9 +127,9 @@ void Names::setup_names(const char *servername, int my_port)
   int pn = portnum_base - 1;
   set_up_client_socket(socket_num, servername, pn);
   octetStream("P" + to_string(player_no)).Send(socket_num);
-#ifdef DEBUG_NETWORKING
+//#ifdef DEBUG_NETWORKING
   cerr << "Sent " << player_no << " to " << servername << ":" << pn << endl;
-#endif
+//#endif
 
   // Send my name
   octet my_name[512];

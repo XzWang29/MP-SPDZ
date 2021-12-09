@@ -1,9 +1,7 @@
 {
+  "ActiveTargetSystem": "WSL: ubuntu2004",
   "ExpandedNodes": [
-    "",
-    "\\Networking"
+    ""
   ],
-  "SelectedNode": "\\Networking\\CryptoPlayer.cpp",
-  "PreviewInSolutionExplorer": false,
-  "ActiveTargetSystem": "WSL: ubuntu2004"
+  "PreviewInSolutionExplorer": false
 }
