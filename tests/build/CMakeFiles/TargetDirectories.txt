@@ -1,0 +1,3 @@
+/mnt/d/work/projects_JDTech/MP-SPDZ/tests/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/work/projects_JDTech/MP-SPDZ/tests/build/CMakeFiles/edit_cache.dir
+/mnt/d/work/projects_JDTech/MP-SPDZ/tests/build/CMakeFiles/test_0.dir

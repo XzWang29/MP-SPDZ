@@ -1,0 +1,160 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_0"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/mnt/d/work/projects_JDTech/MP-SPDZ"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "test_0::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-L/mnt/d/work/projects_JDTech/MP-SPDZ",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/mnt/d/work/projects_JDTech/MP-SPDZ",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/CryptoPlayer.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/Player.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/Receiver.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/Sender.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/Server.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/ServerSocket.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../Networking/sockets.o",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lcrypto",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lssl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lSPDZ",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_0",
+	"nameOnDisk" : "test_0",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/testPlayer.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
